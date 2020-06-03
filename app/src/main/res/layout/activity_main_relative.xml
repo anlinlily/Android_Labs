@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/gui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gui"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/bu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gui"
+        android:text="@string/Button"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/cen"
+        android:onClick="send"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/gui"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cen"/>
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gui"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/check"
+        android:layout_toEndOf="@id/cen"/>
+
+    <ImageButton
+        android:id="@+id/ib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bu"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/flag"
+        android:layout_toStartOf="@id/cen1"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/cen1"
+        android:layout_below="@id/bu"
+        android:layout_centerHorizontal="true"/>
+
+    <Switch
+        android:id="@+id/sw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bu"
+        android:layout_alignParentEnd="true"
+        android:text="@string/switch_on"
+        android:layout_toEndOf="@id/cen1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ib"
+        android:hint="@string/type"
+        android:inputType="textPersonName"/>
+
+
+
+
+</RelativeLayout>
