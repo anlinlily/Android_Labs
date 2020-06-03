@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Labs</string>
+    <string name="hello_message">您好!</string>
+    <string name="ButtonText">我是按钮</string>
+    <string name="gui">看我的GUI</string>
+    <string name="Button">点这里</string>
+    <string name="check">勾上！</string>
+    <string name="switch_on">设置开/关</string>
+    <string name="type">在此输入</string>
+    <string name="toast_message">更多精彩内容请听下回分解</string>
+    <string name="cb_messageOn">已勾</string>
+    <string name="cb_messageOff">麻烦勾上谢谢</string>
+    <string name="sw_messageOn">该设置已开启</string>
+    <string name="sw_messageOff">该设置已关闭</string>
+    <string name="undo">撤回</string>
+</resources>
