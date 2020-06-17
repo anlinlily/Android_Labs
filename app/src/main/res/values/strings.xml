@@ -12,5 +12,15 @@
     <string name="cb_messageOff">Check this out</string>
     <string name="sw_messageOn">The switch is on</string>
     <string name="sw_messageOff">The switch is off</string>
-    <string name="undo">Undo</string>
+    <string name="profile">Your Profile</string>
+    <string name="name">Your name:</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="your_email">Your email:</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="pic">Your picture:</string>
+    <string name="take_pic">Click the button above to take a picture</string>
+    <string name="type_email">Type email here</string>
+    <string name="enter_emailAdd">Enter your email address:</string>
+    <string name="type_pass">Type your password</string>
+    <string name="login">LOGIN</string>
 </resources>

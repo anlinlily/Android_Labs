@@ -13,5 +13,15 @@
     <string name="cb_messageOff">麻烦勾上谢谢</string>
     <string name="sw_messageOn">该设置已开启</string>
     <string name="sw_messageOff">该设置已关闭</string>
-    <string name="undo">撤回</string>
+    <string name="profile">你的档案</string>
+    <string name="name">你的名字:</string>
+    <string name="enter_name">输入你的名字</string>
+    <string name="your_email">你的邮箱:</string>
+    <string name="enter_email">输入你的邮箱</string>
+    <string name="pic">你的照片:</string>
+    <string name="take_pic">点击按钮照相</string>
+    <string name="type_email">输入邮箱</string>
+    <string name="enter_emailAdd">在这里输入邮箱:</string>
+    <string name="type_pass">输入密码</string>
+    <string name="login">登录</string>
 </resources>
