@@ -23,4 +23,7 @@
     <string name="enter_emailAdd">Enter your email address:</string>
     <string name="type_pass">Type your password</string>
     <string name="login">LOGIN</string>
+    <string name="goChat">Go to chat</string>
+    <string name="send">SEND</string>
+    <string name="receive">RECEIVE</string>
 </resources>

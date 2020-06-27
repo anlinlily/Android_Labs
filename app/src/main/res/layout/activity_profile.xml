@@ -49,5 +49,11 @@
         android:layout_height="wrap_content"
         android:text="@string/take_pic"/>
 
+    <Button
+        android:id="@+id/goChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goChat"/>
+
 
 </LinearLayout>
