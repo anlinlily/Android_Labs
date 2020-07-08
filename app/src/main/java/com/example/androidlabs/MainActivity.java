@@ -8,19 +8,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.Toast;
-
-import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
     private CheckBox checkBox;
     private Switch sw;
-    private EditText email;
+    private EditText email1;
     private SharedPreferences preferences;
 
     @Override
@@ -29,16 +26,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_login);
 
         preferences = getSharedPreferences("sp", MODE_PRIVATE);
-        email = (EditText) findViewById(R.id.email);
+        email1 = (EditText) findViewById(R.id.email);
         String emailAddress = preferences.getString("Email Address", "");
-        email.setText(emailAddress);
+        email1.setText(emailAddress);
 
         button = (Button) findViewById(R.id.log_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent goToProfile = new Intent(MainActivity.this, ProfileActivity.class);
-                goToProfile.putExtra("EMAIL", email.getText().toString().trim());
+                goToProfile.putExtra("EMAIL", email1.getText().toString().trim());
                 startActivity(goToProfile);
             }
         });
@@ -48,9 +45,10 @@ public class MainActivity extends AppCompatActivity {
     public void onPause() {
         super.onPause();
         SharedPreferences.Editor editor = preferences.edit();
-        editor.putString("Email Address", email.getText().toString().trim());
+        editor.putString("Email Address", email1.getText().toString().trim());
         editor.commit();
     }
+
 //        button = (Button) findViewById(R.id.bu);
 //        button.setOnClickListener(new View.OnClickListener() {
 //            @Override

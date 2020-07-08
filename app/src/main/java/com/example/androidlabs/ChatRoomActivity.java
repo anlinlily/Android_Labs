@@ -146,4 +146,6 @@ public class ChatRoomActivity extends AppCompatActivity {
             return (long) position;
         }
     }
+
+
 }
